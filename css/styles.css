@@ -1,0 +1,9 @@
+#navbar li.active a{
+    border-bottom: 4px solid black;
+    padding-bottom: 0px;
+    background-color: transparent;
+}
+
+#navbar{
+    margin-right: 20%;
+}
