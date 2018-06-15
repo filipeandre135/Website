@@ -23,12 +23,13 @@
     background-image:url("images/teste.jpg");
 }
 .loose-sol{
-    position: fixed;
+    position: absolute;
     font-size: 80px;
     top: 550px;
     right: -130px;
     color: #e3e3e3;
     font-weight: 600;
+    z-index: -1;
 }
 
 .homepage-banner-left{
