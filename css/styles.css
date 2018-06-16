@@ -77,6 +77,14 @@
     font-weight: 600;
 }
 
+#about-us .text-border{
+    border-bottom:5px #267ab5;
+}
+
+#about-us{
+    padding-bottom:70px;
+}
+
 .pe-back-rectangle{
     border: 6px solid #e7e7e7;
     height: 170px;
@@ -86,4 +94,12 @@
     left: 423px;
     opacity: 0.5;
     z-index: 0;
+}
+
+.blue-background{
+    background-color:#1f1f29; 
+}
+
+#our-services{
+    min-height:200px;
 }
