@@ -121,7 +121,7 @@
     background-image: url("../images/^7BDE40B5BBDB0F60FF380A9A9E17E05945D7152EB07E472928^pimgpsh_fullsize_distr.jpg");
     min-height:300px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 /*LOOSE WORD CLASSES */ 
@@ -139,12 +139,13 @@
 .loose-pe{
     position: absolute;
     top: 140px;
-    left: -165px;
+    left: 0;
     color: #e7e7e7;
     font-size: 77px;
     opacity: 0.5;
     font-weight: 600;
     z-index: 0;
+    overflow: hidden;
 }
 
 /* SOLUTIONS WORD*/
