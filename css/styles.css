@@ -22,15 +22,6 @@
 .banner-about-us{
     background-image:url("images/teste.jpg");
 }
-.loose-sol{
-    position: absolute;
-    font-size: 80px;
-    top: 550px;
-    right: -130px;
-    color: #e3e3e3;
-    font-weight: 600;
-    z-index: -1;
-}
 
 .homepage-banner-left{
     min-height:300px;
@@ -44,31 +35,22 @@
     background-size: cover;
 }
 
-.loose-pe{
-    position: absolute;
-    top: 140px;
-    left: -165px;
-    color: #e7e7e7;
-    font-size: 77px;
-    opacity: 0.5;
-    font-weight: 600;
-    z-index: 0;
-}
+
 
 #about-us .header{
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 70px;
     padding-bottom: 60px;
     font-weight: 900;
 }
 
 #about-us .back-rectangle{
-    border: 5px solid #e7e7e7;
-    height: 50px;
-    width: 150px;
+    border: 7px solid #e7e7e7;
+    height: 60px;
+    width: 175px;
     position: absolute;
     top: 68px;
-    left: 30px;
+    left: 60px;
     z-index: -30;
 }
 
@@ -77,12 +59,8 @@
     font-weight: 600;
 }
 
-#about-us .text-border{
-    border-bottom:5px #267ab5;
-}
-
 #about-us{
-    padding-bottom:70px;
+    padding-bottom:80px;
 }
 
 .pe-back-rectangle{
@@ -102,4 +80,80 @@
 
 #our-services{
     min-height:200px;
+}
+
+.text-border{
+    border-bottom: solid 5px #267ab5;
+    width: 80px;
+}
+
+#our-services .header{
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+#our-services .back-rectangle{
+    border: 7px solid #e7e7e7;
+    height: 115px;
+    width: 190px;
+    position: absolute;
+    top: 65px;
+    left: 70px;
+    z-index: -30;
+    opacity: 0.4;
+}
+
+#our-services .wrapper{
+    z-index: 10;
+    margin-bottom: 50px;
+}
+
+
+#our-services .text{
+    font-size: 15px;
+    font-weight: 300;
+    width: 80%;
+}
+
+/*LOOSE WORD CLASSES */ 
+
+.background-word{
+    position: absolute;
+    font-size: 80px;
+    color: #e3e3e3;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+/*MPTEQUATIO*/
+
+.loose-pe{
+    position: absolute;
+    top: 140px;
+    left: -165px;
+    color: #e7e7e7;
+    font-size: 77px;
+    opacity: 0.5;
+    font-weight: 600;
+    z-index: 0;
+}
+
+/* SOLUTIONS WORD*/
+#word1{ 
+    top: 550px;
+    right: 0px;
+}
+
+#word1 .inner{
+    margin-right: -130px;
+}
+
+/* OLOGY*/
+
+#word2{ 
+    top: 665px;
+    z-index: -1;
+    left: -10px;
 }
