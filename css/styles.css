@@ -79,7 +79,7 @@
 }
 
 #our-services{
-    min-height:200px;
+    margin-bottom: 50px;
 }
 
 .text-border{
@@ -121,6 +121,36 @@
     min-height:300px;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.icon{
+    font-size:3rem;
+    color:white;
+}
+
+.square{
+    margin-top: 90px;
+    border: solid 2px white;
+    height: 170px;
+    text-align: center;
+    color:white;
+}
+
+.square-blue{
+    margin-top: 90px;
+    border: solid 2px #267ab5;
+    height: 170px;
+    text-align: center;
+    color:white;
+}
+
+.square-content{
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.square-content .first-text{
+    padding-top: 10px;
 }
 
 /*LOOSE WORD CLASSES */ 
