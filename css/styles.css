@@ -157,6 +157,7 @@
     font-size:15px;
     font-weight: 300;
     padding-top:100px;
+    min-height:410px;
 }
 
 #testimonials .back-rectangle{
@@ -185,6 +186,66 @@
 .carousel-indicators li.active{
     
     background-color: #999;
+}
+
+.carousel-inner{
+    min-height: 610px;
+}
+
+.testemonial-person{
+    background-color: #e7e7e7;
+    height: 110px;
+    margin-top: 25px;
+    text-align: right;
+}
+.testemonial-person .name{
+    color: black;
+    padding-top: 20px;
+    font-size: 22px;
+    margin-right: 50px;
+    font-weight: 900;
+}
+.testemonial-person .company{
+    color: #267ab5;
+    font-size: 30px;
+    margin-right: 50px;
+    font-weight: 900;
+}
+
+.quotes-open{
+    font-size: 128px;
+    position: absolute;
+    color: #e7e7e7e7;
+    left: -25px;
+    top: 30px;
+}
+
+.quotes-close1{
+    font-size: 128px;
+    position: absolute;
+    color: #e7e7e7e7;
+    right: -5px;
+    bottom: 0px;
+}
+
+.quotes-close2{
+    font-size: 128px;
+    position: absolute;
+    color: #e7e7e7e7;
+    right: -5px;
+    bottom: 132px;
+}
+
+.quotes-close3{
+    font-size: 128px;
+    position: absolute;
+    color: #e7e7e7e7;
+    right: -5px;
+    bottom: 45px;
+}
+
+.img-fluid{
+    width:100%;
 }
 
 /*LOOSE WORD CLASSES */ 
