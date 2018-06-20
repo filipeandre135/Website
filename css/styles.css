@@ -55,7 +55,7 @@
 }
 
 #about-us .text{
-    font-size:15px;
+    font-size:18px;
     font-weight: 600;
 }
 
@@ -116,13 +116,6 @@
     width: 80%;
 }
 
-.homepage-banner-2{
-    background-image: url("../images/^7BDE40B5BBDB0F60FF380A9A9E17E05945D7152EB07E472928^pimgpsh_fullsize_distr.jpg");
-    min-height:300px;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
 .icon{
     font-size:3rem;
     color:white;
@@ -134,9 +127,10 @@
     height: 170px;
     text-align: center;
     color:white;
+    cursor:pointer;
 }
 
-.square-blue{
+.square:hover{
     margin-top: 90px;
     border: solid 2px #267ab5;
     height: 170px;
@@ -151,6 +145,46 @@
 
 .square-content .first-text{
     padding-top: 10px;
+}
+
+#testimonials .header{
+    font-size: 40px;
+    padding-top: 200px;
+    font-weight: 900;
+}
+
+#testimonials .text{
+    font-size:15px;
+    font-weight: 300;
+    padding-top:100px;
+}
+
+#testimonials .back-rectangle{
+    border: 7px solid #e7e7e7;
+    height: 65px;
+    width: 190px;
+    position: absolute;
+    top: 195px;
+    left: 158px;
+    z-index: -30;
+}
+
+.carousel-indicators li{
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: white;
+    border: solid 1px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.carousel-indicators li.active{
+    
+    background-color: #999;
 }
 
 /*LOOSE WORD CLASSES */ 
