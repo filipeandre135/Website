@@ -50,7 +50,7 @@
     width: 175px;
     position: absolute;
     top: 68px;
-    left: 60px;
+    left: 70px;
     z-index: -30;
 }
 
@@ -166,7 +166,7 @@
     width: 190px;
     position: absolute;
     top: 195px;
-    left: 158px;
+    left: 70px;
     z-index: -30;
 }
 
@@ -248,11 +248,64 @@
     width:100%;
 }
 
+.contacts-background{
+    background: url(../images/^FB97DE81227C55FEE013F5928284B3F24A134316A33679CF25^pimgpsh_fullsize_distr.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#contacts .header{
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+#contacts .back-rectangle{
+    border: 7px solid #e7e7e7;
+    height: 115px;
+    width: 190px;
+    position: absolute;
+    top: 65px;
+    left: 70px;
+    opacity: 0.4;
+}
+
+#contacts .text{
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    font-weight: 300;
+}
+
+#contacts .text .label{
+    font-weight: 600;
+}
+.join-us-button{
+    border: solid 3px white;
+    background: transparent;
+    color: white;
+    padding: 2px 20px;
+    margin-top: 20px;
+    margin-left: 20%;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.map-link{
+    padding-top:20px;
+    padding-bottom:20px;
+    text-decoration: underline;
+}
+
 /*LOOSE WORD CLASSES */ 
 
 .background-word{
     position: absolute;
-    font-size: 80px;
+    font-size: 7rem;
     color: #e3e3e3;
     font-weight: 600;
     overflow: hidden;
@@ -274,8 +327,9 @@
 
 /* SOLUTIONS WORD*/
 #word1{ 
-    top: 550px;
+    top: 110%;
     right: 0px;
+    z-index:-1;
 }
 
 #word1 .inner{
@@ -285,7 +339,22 @@
 /* OLOGY*/
 
 #word2{ 
-    top: 665px;
+    top: 140%;
     z-index: -1;
     left: -10px;
+}
+
+/* CONTACTS*/
+
+#word3{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    color: #e7e7e7;
+    font-size: 7rem;
+    opacity: 0.5;
+    font-weight: 600;
+    z-index: 0;
+    overflow: hidden;
+    margin-left: -170px;
 }
