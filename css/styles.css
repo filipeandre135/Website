@@ -282,6 +282,7 @@
 
 #contacts .text .label{
     font-weight: 600;
+    padding-top:20px;
 }
 .join-us-button{
     border: solid 3px white;
@@ -297,9 +298,30 @@
 
 .map-link{
     padding-top:20px;
-    padding-bottom:20px;
     text-decoration: underline;
 }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.input-form{
+    padding-top: 80px;
+    padding-left: 30px;
+}
+
+.input{
+    background: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    color:white;
+}
+
 
 /*LOOSE WORD CLASSES */ 
 
