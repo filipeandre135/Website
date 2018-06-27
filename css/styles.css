@@ -295,9 +295,20 @@
     border: solid 3px white;
     background: transparent;
     color: white;
-    padding: 2px 20px;
+    padding: 4px 30px;
     margin-top: 20px;
     margin-left: 20%;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.send-button{
+    border: solid 3px white;
+    background: transparent;
+    color: white;
+    padding: 4px 30px;
+    float:right;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
@@ -363,6 +374,48 @@ button:focus {
 .banner-text{
     color:white;
     font-size: 25px;
+}
+
+#homepage-intro{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#homepage-intro .text{
+    color:black;
+    font-size: 18px;
+}
+
+#homepage-intro .header{
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.category-header{
+    font-size: 30px;
+    color: #267ab5;
+    font-weight: 900;
+}
+.category-header-border{
+    border-bottom:3px solid #1f1f29;
+    width:50px;
+    margin-bottom:1rem;
+}
+
+.header-center{
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.category-list p{
+    height:70px;
+    font-weight: 900;
 }
 
 /*LOOSE WORD CLASSES */ 
