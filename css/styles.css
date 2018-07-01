@@ -511,6 +511,89 @@ button:focus {
     z-index: -30;
 }
 
+#join-us-content{
+    padding-top: 60px;
+}
+
+#join-us-content .header{
+    font-size: 40px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    font-weight: 900;
+}
+
+#join-us-content .back-rectangle{
+    border: 7px solid #e7e7e7;
+    height: 90px;
+    width: 290px;
+    position: absolute;
+    top: 56px;
+    left: 70px;
+    z-index: -30;
+}
+
+.job-application{
+    box-shadow: 0px -5px 10px -5px #e7e7e7;
+    border:solid 1px #e7e7e7;
+    padding:20px;
+}
+
+.job-application .label{
+    color: #e7e7e7;
+    font-weight:600;
+}
+
+.job-application .position{
+    color:#267ab5;
+    font-weight: 900;
+    font-size:25px;
+    text-transform: uppercase;
+}
+
+.job-application .text{
+    font-weight: 600;
+    padding-top:10px;
+}
+
+.btn-apply{
+    background-color:#267ab5;
+    color:white;
+    padding:5px 10px;
+    border-radius:0;
+    font-weight: 600;
+}
+
+.application-content{
+    padding-top:30px;
+}
+
+.application-content .main-title{
+    color:#808082;
+    font-weight:900;  
+    padding:20px 0;  
+}
+
+.application-content .title{
+    color:#808082;
+    padding:20px 0;  
+}
+
+.job-requirements{
+    padding-left:25px;
+}
+
+.job-requirements li{
+    list-style-type: disc;
+    color:#267ab5;
+    font-size:25px;
+}
+
+.job-requirements li span{
+    color:black;
+    font-size:16px;
+}
+
+
 /*NAVBAR */ 
 
 .navbar-light .navbar-nav .nav-link{   
