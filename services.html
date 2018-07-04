@@ -22,6 +22,7 @@
         background-color:white;
         padding:10px;
         font-weight: 900;
+        cursor:pointer;
     }
 
     .overlap-background{
@@ -30,6 +31,16 @@
     background-color: #1f1f29;
     width: 100%;
     height: 50%;
+    }
+
+    .card-footer{
+        border-top:0;
+        background-color:white;
+        padding-bottom:40px;
+    }
+
+    .align-cards-top{
+        margin-top:-8%;
     }
 </style>
 <body>
@@ -137,41 +148,86 @@
       </div>
     </div>
   <!-- END OF SECOND IMAGE BANNER-->
-  <div class="container">
+  <div class="container align-cards-top">
       <div class="row">
         <div class="card-deck">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title blue-font text-align-center">Professional Linux Systems Maintenance</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title blue-font text-center font-weight-bold">Professional Linux Systems Maintenance</h5>
+                <div class="card-text pt-4 text-center">
+                    <div>Linux server maintenance</div>
+                    <div class="pb-5">Odoo Server Backup</div>
+                    <div>
+                        - Creation of automatic backup routines pointing to AWS S3 and Glacier
+                    </div>
+                    <div>
+                        - Weekly monitoring of backups.
+                    </div>
+                    <div class="pb-3">
+                        - Quarterly restores of S3 test.
+                    </div>
+                </div>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
+              <div class="card-footer text-center">
+                    <button class="services-button">
+                            I want maintenance services
+                  </button>
+            </div>
             </div>
             <div class="card">
-              
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
-            </div>
-            <div class="card">
-              
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
-            </div>
+                    <div class="card-body">
+                      <h5 class="card-title blue-font text-center font-weight-bold">Linux Systems administration</h5>
+                      <div class="py-5 card-text text-center">
+                          <div>System monitoring</div>
+                          <div>Latest security updates</div>
+                          <div class="pb-5">
+                              Backup and disaster recovery strategies for all budgets Network design and implementation
+                          </div>
+                          
+                      </div>
+                    </div>
+                    <div class="card-footer text-center">
+                            <button class="services-button">
+                                    I want administration services
+                          </button>
+                    </div>
+                  </div>
+                  <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title blue-font text-center font-weight-bold">Linux Server Upgrade</h5>
+                          <div class="card-text py-5 text-center">
+                              <p>Software inventory management</p>
+                              <p>Server quarterly backup and upgrading</p>
+                              <p>Monitor outstanding bug fixesto perform emergency upgrades.</p>
+                          </div>
+                        </div>
+                        <div class="card-footer text-center">
+                                <button class="services-button">
+                                        I want to upgrade services
+                              </button>
+                        </div>
+                      </div>
           </div>
       </div>
   </div>
+  <footer>
+        <div class="container-fluid blue-footer">
+             <div class="row" id="footer">
+         <div class="col-1 mx-auto">
+             <div class="social-icons">
+                 <span class="icon-social icon-facebook">
+                   </span>
+                   <span class="icon-social icon-linkedin">
+                     </span>
+             </div>
+         </div>
+         <div class="col-12">
+             <div class="copyright">@2018 Promptequation Todos os Direitos Reservados</div>
+         </div>
+         
+       </div>
+     </div>
+     </footer>
 </body>
 
 </html>
