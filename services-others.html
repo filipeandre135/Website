@@ -12,101 +12,226 @@
     <script src="external/js/bootstrap.min.js"></script>
 </head>
 
+<style>
+    .grey-bar {
+        background-color: #e7e7e7;
+        border-bottom: 2px solid #808082;
+    }
+
+    #tabs-nav {
+        width: 100%;
+    }
+
+    #other-services .icon{
+        color:black;
+        display: inline-block;
+        margin-right:10px;
+    }
+    #other-services .title{
+        font-weight:900;
+    }
+    #other-services .text{
+        font-size:1rem;
+    }
+
+    #tabs-nav ul {
+        width: 100%;
+    }
+
+    #tabs-nav a {
+        font-weight: 600;
+        color: black;
+    padding: .5rem 0;
+    background-color: transparent;
+    }
+
+    #tabs-nav a.active {
+        font-weight: 900;
+        color: black;
+    padding: .5rem 0;
+    background-color: transparent;
+    }
+
+    #tabs-nav a.active ~.active-border {
+        height: 3px;
+        background-color: black;
+        width: 15%;
+
+    }
+
+    .services-button{
+        border:solid 2px #e7e7e7;
+        background-color:white;
+        padding:10px;
+        font-weight: 900;
+        cursor:pointer;
+    }
+</style>
 
 <body>
-        <!-- MENU -->
+    <!-- MENU -->
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light navbar-fixed-top bg-light">
-          <div class="container">
-        <a class="navbar-brand" href="index.html"> <img src="images/logo.svg"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto mr-0 ">
-            <li class="nav-item">
-              <a class="nav-link" href="about-us.html">About Us
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfólio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="careers.html">Careers</a>
-            </li>
-              
-             <div class="right">
-         <button class="language">PT |</button>
-                 <button class="language2"> EN</button>
-                                    </div>
-              
-          </ul>
-        </div>
-              </div>
-      </nav>
-             
-      <!-- ENDOF MENU-->
-      <div class="container-fluid">
-          <!-- BANNER IMAGE-->
-          <div class="row">
-              <div class="col-12 px-0">
-                  <img src="images/banner_aboutUs.jpg" class="img-fluid" alt="Responsive image">
-              </div>
-          </div>
-  
-      </div>
-      <div class="container-fluid blue-background">
-          <div class="row">
-              <div class="container">
-                  <div class="row ">
-                      <div class="col-6">
-                          <div class="banner-header">
-                              <div>Our Services</div>
-                              <div class="text-border"></div>
-                          </div>
-                      </div>
-                      <div class="col-6 align-self-center d-flex justify-content-end">
-                          <div class="banner-text">
-                              Other Services
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="container-fluid">
-          <div class="row">
-              <div class="col-12 px-0">
-                  <div class="grey-bar"></div>
-              </div>
-          </div>
-      </div>
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.svg">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto mr-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About Us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="careers.html">Careers</a>
+                    </li>
 
+                    <div class="right">
+                        <button class="language">PT |</button>
+                        <button class="language2"> EN</button>
+                    </div>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ENDOF MENU-->
+    <div class="container-fluid">
+        <!-- BANNER IMAGE-->
+        <div class="row">
+            <div class="col-12 px-0">
+                <img src="images/banner_aboutUs.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid blue-background">
+        <div class="row">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-6">
+                        <div class="banner-header">
+                            <div>Our Services</div>
+                            <div class="text-border"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 align-self-center d-flex justify-content-end">
+                        <div class="banner-text">
+                            Other Services
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid grey-bar">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <nav id="tabs-nav" class="navbar">
+                        <ul class="nav nav-pills">
+                            <li class="col-3 px-0 nav-item">
+                                <a class="nav-link" href="#systems">Integrated eCommerce systems
+
+                                </a>
+                                <div class="active-border"></div>
+                            </li>
+                            <li class="col-3 px-0 nav-item">
+                                <a class="nav-link" href="#website">Website Development
+                                </a>
+                                <div class="active-border"></div>
+                            </li>
+                            <li class="col-3 px-0 nav-item">
+                                <a class="nav-link" href="#it">IT Project
+                                </a>
+                                <div class="active-border"></div>
+                            </li>
+                            <li class="col-3 px-0 nav-item">
+                                <a class="nav-link" href="#cloud">Cloud Infrastructure</a>
+                                <div class="active-border"></div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 py-5 text-center">
+                <p class="font-weight-600 pt-5">
+                    Complete services and solutions that will improve the way you manage your business
+                </p>
+                <h3 class="blue-font font-weight-bold">
+                    We offer additional services to optimize your business processes.
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="other-services" data-spy="scroll" data-target="#tabs-nav" data-offset="0">
+        <div class="row" id="systems">
+            <div class="col-6 mr-auto">
+                <div class="icon icon-linux">
+                </div>
+                <span class="title">
+                    Integrated eCommerce systems
+                </span>
+                <p class="pt-3 text">
+                    Solutions to increase your revenue potential. Reduce operating cost with an efficient workflow.
+                </p>
+                <button class="services-button">
+                    Build your Website
+                </button>
+            </div>
+        </div>
+        <div class="row" id="systems">
+                <div class="col-6 mr-auto">
+                    <div class="icon icon-linux">
+                    </div>
+                    <span class="title">
+                        Integrated eCommerce systems
+                    </span>
+                    <p class="pt-3 text">
+                        Solutions to increase your revenue potential. Reduce operating cost with an efficient workflow.
+                    </p>
+                    <button class="services-button">
+                        Build your Website
+                    </button>
+                </div>
+            </div>
+    </div>
 
     <footer>
-          <div class="container-fluid blue-footer">
-               <div class="row" id="footer">
-           <div class="col-1 mx-auto">
-               <div class="social-icons">
-                   <span class="icon-social icon-facebook">
-                     </span>
-                     <span class="icon-social icon-linkedin">
-                       </span>
-               </div>
-           </div>
-           <div class="col-12">
-               <div class="copyright">@2018 Promptequation Todos os Direitos Reservados</div>
-           </div>
-           
-         </div>
-       </div>
-       </footer>
-  </body>
-  
+        <div class="container-fluid blue-footer">
+            <div class="row" id="footer">
+                <div class="col-1 mx-auto">
+                    <div class="social-icons">
+                        <span class="icon-social icon-facebook">
+                        </span>
+                        <span class="icon-social icon-linkedin">
+                        </span>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="copyright">@2018 Promptequation Todos os Direitos Reservados</div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>
