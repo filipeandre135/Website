@@ -6,6 +6,19 @@ p{font-size: 1.125rem;}
 
 h2{font-weight: 800;}
 
+.h3, h3 {
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+h3#first_title{margin-bottom: 2.1875rem;}
+h5#second_title {
+    font-weight: 600;
+    margin: 1rem 0rem 1.5rem;
+}
+h2#first_message{font-weight: 400;
+color: white;}
+
 #navbar ul li.active a{
     border-bottom: 4px solid black;
     padding-bottom: 0px;
@@ -39,7 +52,14 @@ h2{font-weight: 800;}
     background-size: cover;
 }
 
+.right {
+    margin-left: 1rem;
+}
 
+#our-services a:hover {
+    color: transparent;
+    text-decoration: none;
+}
 
 #about-us .header{
     font-size: 40px;
@@ -312,8 +332,11 @@ h2{font-weight: 800;}
 
 #contacts .text .label{
     font-weight: 600;
-    padding-top:20px;
+    padding-top:0.7rem;
 }
+
+.row#contacts a{color: #fff;
+font-weight: bold;}
 .join-us-button{
     border: solid 3px white;
     background: transparent;
@@ -338,7 +361,7 @@ h2{font-weight: 800;}
 }
 
 .map-link{
-    padding-top:20px;
+       padding: 0.625rem 0rem 0.9375rem;
     text-decoration: underline;
 }
 
@@ -373,18 +396,6 @@ button:focus {
     opacity: 1; /* Firefox */
 }
 
-.social-icons{
-    border-bottom: 4px solid white;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.copyright{
-    color:white;
-    text-align: center;
-    padding-top:5px;
-    padding-bottom:20px;
-}
 
 .banner-header{
     font-size: 40px;
@@ -671,7 +682,14 @@ button:focus {
     left: -10px;
 }
 
-/* CONTACTS*/
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.8rem 0rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: none;
+}
 
 #word3{
     position: absolute;
@@ -684,4 +702,37 @@ button:focus {
     z-index: 0;
     overflow: hidden;
     margin-left: -170px;
+}
+
+/* Lists*/
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.8rem 0rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: none;
+}
+
+/* FOOTER*/
+span.icon-social.icon-linkedin {
+    padding: 0rem 0.3rem 0rem;
+}
+
+span.icon-social.icon-facebook {
+    padding: 0rem 0.3rem 0rem;
+}
+
+.social-icons{
+    display: inline-flex;
+    border-bottom: 4px solid white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.copyright{
+    color:white;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:20px;
 }
