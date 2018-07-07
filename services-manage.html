@@ -14,7 +14,7 @@
 </head>
 <style>
     .grey-bar {
-        background-color: #e7e7e7;
+        background-color: #efefef;
         border-bottom: 2px solid #808082;
     }
 
@@ -36,8 +36,10 @@
         font-size: 1rem;
     }
 
-    #tabs-nav ul {
+    #content ul {
         width: 100%;
+        list-style:none;
+        padding-left:0;
     }
 
     #tabs-nav a {
@@ -59,9 +61,13 @@
         margin-left:15px;
     }
 
-    .manage-services ol li {
+    .manage-services ul li {
         padding: 10px 0;
         font-weight: 600;
+    }
+
+    .manage-services ul li span {
+        color:#267ab5;
     }
 
     .manage-services .title {
@@ -212,17 +218,23 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <ol>
-                                        <li>Odoo - Odoo Community, Enterprise and Odoo.sh</li>
-                                        <li>Syncthing</li>
-                                        <li>Nextcloud</li>
+                                    <ul>
+                                        <li><span class="icon2 icon-check">
+                                            </span>Odoo - Odoo Community, Enterprise and Odoo.sh</li>
+                                        <li><span class="icon2 icon-check">
+                                            </span>Syncthing</li>
+                                        <li><span class="icon2 icon-check">
+                                            </span>Nextcloud</li>
                                     </ol>
                                 </td>
                                 <td>
-                                    <ol>
-                                        <li>OpenProject</li>
-                                        <li>Gitlab</li>
-                                        <li>LXD/LXC</li>
+                                    <ul>
+                                        <li><span class="icon2 icon-check">
+                                            </span>OpenProject</li>
+                                        <li><span class="icon2 icon-check">
+                                            </span>Gitlab</li>
+                                        <li><span class="icon2 icon-check">
+                                            </span>LXD/LXC</li>
                                     </ol>
                                 </td>
                             </tr>
@@ -253,17 +265,22 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <ol>
-                                        <li>Sales</li>
-                                        <li>Accounting</li>
-                                        <li>Manufacturing</li>
-                                    </ol>
+                                    <ul>
+                                        <li><span class="icon2 icon-check">
+                                            </span>Sales</li>
+                                        <li><span class="icon2 icon-check">
+                                            </span>Accounting</li>
+                                        <li><span class="icon2 icon-check">
+                                            </span>Manufacturing</li>
+                                    </ul>
                                 </td>
                                 <td>
-                                    <ol>
-                                        <li>E-Commerce</li>
-                                        <li>And a lot more</li>
-                                    </ol>
+                                    <ul>
+                                        <li><span class="icon2 icon-check">
+                                            </span>E-Commerce</li>
+                                        <li><span class="icon2 icon-check">
+                                            </span>And a lot more</li>
+                                    </ul>
                                 </td>
                             </tr>
                         </tbody>
@@ -305,11 +322,14 @@
                         Open Project
                     </span>
                     <p class="pt-3">Open Project is a project management software, leading in the open source segment</p>
-                    <ol>
-                        <li>Manage your projects from creation to conclusion.</li>
-                        <li>Detailed planning, effective collaboration and task managing.</li>
-                        <li>Easy communication between team members and visualisation with Gantt charts.</li>
-                    </ol>
+                    <ul>
+                        <li><span class="icon2 icon-check">
+                            </span>Manage your projects from creation to conclusion.</li>
+                        <li><span class="icon2 icon-check">
+                            </span>Detailed planning, effective collaboration and task managing.</li>
+                        <li><span class="icon2 icon-check">
+                            </span>Easy communication between team members and visualisation with Gantt charts.</li>
+                    </ul>
                 </div>
             </div>
             <div class="row" id="gitlab">
@@ -349,12 +369,16 @@
                     <span class="title">
                         NextCloud
                     </span>
-                    <ol>
-                        <li>Access multiple file types (documents,images, etc)</li>
-                        <li>Employees can share files with partners and costumers</li>
-                        <li>Improve collaboration</li>
-                        <li>Have a hybrid or cloud solution for your IT team to control</li>
-                    </ol>
+                    <ul>
+                        <li><span class="icon2 icon-check">
+                            </span>Access multiple file types (documents,images, etc)</li>
+                        <li><span class="icon2 icon-check">
+                            </span>Employees can share files with partners and costumers</li>
+                        <li><span class="icon2 icon-check">
+                            </span>Improve collaboration</li>
+                        <li><span class="icon2 icon-check">
+                            </span>Have a hybrid or cloud solution for your IT team to control</li>
+                    </ul>
                 </div>
             </div>
             <div class="row" id="lxc">
@@ -367,12 +391,16 @@
                     <p>
                         LXC/LXD is a Linux container.
                     </p>
-                    <ol>
-                        <li>Run apps for long periods of time</li>
-                        <li>Virtualise entire operatin systems</li>
-                        <li>Get snapshots of running containers</li>
-                        <li>Make live container migrations</li>
-                    </ol>
+                    <ul>
+                        <li><span class="icon2 icon-check">
+                            </span>Run apps for long periods of time</li>
+                        <li><span class="icon2 icon-check">
+                            </span>Virtualise entire operatin systems</li>
+                        <li><span class="icon2 icon-check">
+                            </span>Get snapshots of running containers</li>
+                        <li><span class="icon2 icon-check">
+                            </span>Make live container migrations</li>
+                    </ul>
                 </div>
                 <div class="col-5 pt-5 text-right">
                     <h3 class="blue-font font-weight-bold">
