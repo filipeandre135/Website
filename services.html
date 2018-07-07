@@ -1,177 +1,217 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>title</title>
-    <link rel="stylesheet" href="external/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,900" rel="stylesheet">
-    <script src="external/js/jquery-3.3.1.slim.min.js"></script>
-    <script src="external/js/popper.min.js"></script>
-    <script src="external/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <title>title</title>
+  <link rel="stylesheet" href="external/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,900" rel="stylesheet">
+  <script src="external/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="external/js/popper.min.js"></script>
+  <script src="external/js/bootstrap.min.js"></script>
 </head>
-<style>
-    .grey-bar{
-        background-color:#e7e7e7;
-        border-bottom:2px solid #808082;
-        height:80px;
-    }
-    .services-button{
-        border:solid 2px #e7e7e7;
-        background-color:white;
-        padding:10px;
-        font-weight: 900;
-    }
 
-    .overlap-background{
-        position: absolute;
-    bottom: 0;
-    background-color: #1f1f29;
-    width: 100%;
-    height: 50%;
-    }
-</style>
 <body>
-    <!-- MENU -->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light navbar-fixed-top bg-light">
-        <a class="navbar-brand" href="index.html">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="about-us.html">About Us
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfólio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="careers.html">Careers</a>
-                </li>
+  <!-- MENU -->
+  <style>
+    #services-intro .header {
+      font-size: 30px;
+      padding-top: 70px;
+      padding-bottom: 60px;
+      font-weight: 900;
+    }
 
-                <div class="right">
-                    <button class="language">PT |</button>
-                    <button class="language2"> EN</button>
-                </div>
+    #services-intro .back-rectangle {
+      border: 7px solid #e7e7e7;
+      height: 5.625rem;
+      width: 18.125rem;
+      position: absolute;
+      top: 3rem;
+      left: 41.375rem;
+      z-index: -30;
+    }
 
-            </ul>
-        </div>
-    </nav>
-    <!-- ENDOF MENU-->
-    <div class="container-fluid">
-        <!-- BANNER IMAGE-->
-        <div class="row">
-            <div class="col-12 px-0">
-                <img src="images/banner_aboutUs.jpg" class="img-fluid" alt="Responsive image">
-            </div>
-        </div>
+    .card-title .icon {
+      color: black;
+      font-size: 3.75rem;
+    }
 
-    </div>
-    <div class="container-fluid blue-background">
-        <div class="row">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-6">
-                        <div class="banner-header">
-                            <div>Our Services</div>
-                            <div class="text-border"></div>
-                        </div>
-                    </div>
-                    <div class="col-6 align-self-center d-flex justify-content-end">
-                        <div class="banner-text">
-                            Linux Maintenance and
-                        <div>upgrade packages</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 px-0">
-                <div class="grey-bar"></div>
-            </div>
-        </div>
-    </div>
+    #services-cards .card-body {
+      padding-top: 4rem;
+    }
+
+    #services-cards .card {
+      background-color: #e7e7e7;
+    }
+
+    #services-cards .card-footer {
+      border-top: 0;
+      padding-bottom: 40px;
+      background-color: #e7e7e7;
+    }
+  </style>
+
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light navbar-fixed-top bg-light">
     <div class="container">
-        <div class="row">
-            <div class="col-6 py-5">
-                <h2 class="blue-font">
-                    Because an outstanding business deserves the best technology can provide.
-                </h2>
-            </div>
-            <div class="col-6 py-5">
-                <p>
-                    Make sure all your systems are working. It's important to take proper care and make timely updates.
-                </p>
-                <p class="font-weight-600">
-                    Choose one of our packages and protect your business.
-                </p>
-                <button class="services-button">
-                    I want a Package
-                </button>
-            </div>
-        </div>
-    </div>
-    <!-- END OF BANNER IMAGE-->
-<!-- SECOND IMAGE BANNER-->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-12 px-0">
-            <img src="images/^7BDE40B5BBDB0F60FF380A9A9E17E05945D7152EB07E472928^pimgpsh_fullsize_distr.jpg" class="img-fluid" alt="Responsive image">
-            <div class="overlap-background"></div>
-        </img>
-          </div> 
-        
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.svg">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto mr-0 ">
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About Us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfólio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="careers.html">Careers</a>
+          </li>
+
+          <div class="right">
+            <button class="language">PT |</button>
+            <button class="language2"> EN</button>
+          </div>
+
+        </ul>
       </div>
     </div>
-  <!-- END OF SECOND IMAGE BANNER-->
-  <div class="container">
-      <div class="row">
-        <div class="card-deck">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title blue-font text-align-center">Professional Linux Systems Maintenance</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
-            </div>
-            <div class="card">
-              
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
-            </div>
-            <div class="card">
-              
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
+  </nav>
+  <!-- ENDOF MENU-->
+  <div class="container-fluid">
+    <!-- BANNER IMAGE-->
+    <div class="row">
+      <div class="col-12 px-0">
+        <img src="images/banner_aboutUs.jpg" class="img-fluid" alt="Responsive image">
+      </div>
+    </div>
+
+  </div>
+  <div class="container-fluid blue-background">
+    <div class="row">
+      <div class="container">
+        <div class="row ">
+          <div class="col-6">
+            <div class="banner-header">
+              <div>Our Services</div>
+              <div class="text-border"></div>
             </div>
           </div>
+          <div class="col-6 align-self-center d-flex justify-content-end">
+            <div class="banner-text">
+              Every other business chooses
+              <div>proprietary. Is your business</div>
+              <div>like any other?</div>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
   </div>
+  <div class="container" id="services-intro">
+    <div class="row">
+      <div class="col-12 text-center mx-auto">
+        <div class="header">
+          <div class="back-rectangle"></div>
+          Free yourself of licensing costs
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center font-weight-600">
+        <p>With the help of Open Source software, we provide custom solutions to suit you.</p>
+        <p>And you don't have to pay for licenses.</p>
+        <p>Enjoy new technologies and tools.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="services-cards">
+    <div class="row">
+      <div class="col-12">
+        <div class="card-deck pt-5">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">
+                <span class="icon icon-software">
+                </span>
+              </h5>
+              <div class="card-text text-center py-3 font-weight-bold">
+                <div>Software Solutions</div>
+                <div>for</div>
+                <div>Business Management</div>
+              </div>
+            </div>
+            <div class="card-footer text-center blue-font font-weight-bold">
+              KNOW MORE
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">
+                <span class="icon icon-linux">
+                </span>
+              </h5>
+              <div class="card-text text-center py-3 font-weight-bold">
+                <div>Linux Maintenance</div>
+                <div>and</div>
+                <div>Upgrade Packages</div>
+              </div>
+            </div>
+            <div class="card-footer text-center blue-font font-weight-bold">
+              KNOW MORE
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">
+                <span class="icon icon-other-services">
+                </span>
+              </h5>
+              <div class="card-text text-center py-5 px-5 font-weight-bold">
+                Other services
+              </div>
+            </div>
+            <div class="card-footer text-center blue-font font-weight-bold">
+              KNOW MORE
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <footer>
+      <div class="container-fluid blue-footer">
+           <div class="row" id="footer">
+       <div class="col-1 mx-auto">
+           <div class="social-icons">
+               <span class="icon-social icon-facebook">
+                 </span>
+                 <span class="icon-social icon-linkedin">
+                   </span>
+           </div>
+       </div>
+       <div class="col-12">
+           <div class="copyright">@2018 Promptequation Todos os Direitos Reservados</div>
+       </div>
+       
+     </div>
+   </div>
+   </footer>
 </body>
 
 </html>
