@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="external/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,900" rel="stylesheet">
+    <script src="external/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="external/js/popper.min.js"></script>
+    <script src="external/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .grey-bar {
+        background-color: #e7e7e7;
+        border-bottom: 2px solid #808082;
+    }
+
+    #tabs-nav {
+        width: 100%;
+    }
+
+    #other-services .icon {
+        color: black;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    #other-services .title {
+        font-weight: 900;
+    }
+
+    #other-services .text {
+        font-size: 1rem;
+    }
+
+    #tabs-nav ul {
+        width: 100%;
+    }
+
+    #tabs-nav a {
+        font-weight: 600;
+        color: black;
+        background-color: transparent;
+    }
+
+    #tabs-nav a.active {
+        font-weight: 900;
+        color: black;
+        background-color: transparent;
+    }
+
+    #tabs-nav a.active~.active-border {
+        height: 3px;
+        background-color: black;
+        width: 15%;
+        margin-left:15px;
+    }
+
+    .manage-services ol li {
+        padding: 10px 0;
+        font-weight: 600;
+    }
+
+    .manage-services .title {
+        font-weight: 900;
+        vertical-align: top;
+    }
+
+    .manage-services table {
+        width: 100%;
+    }
+
+    .manage-services table td {
+        vertical-align: top;
+    }
+
+    .services-button {
+        border: solid 2px #e7e7e7;
+        background-color: white;
+        padding: 10px;
+        font-weight: 900;
+        cursor: pointer;
+    }
+
+    .services-button {
+        border: solid 2px #e7e7e7;
+        background-color: white;
+        padding: 10px;
+        font-weight: 900;
+        cursor: pointer;
+    }
+
+    .manage-services .icon {
+        color: black;
+        display: inline-block;
+        margin-right: 10px;
+    }
+</style>
+
+<body>
+    <!-- MENU -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light navbar-fixed-top bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.svg">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto mr-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About Us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="careers.html">Careers</a>
+                    </li>
+
+                    <div class="right">
+                        <button class="language">PT |</button>
+                        <button class="language2"> EN</button>
+                    </div>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ENDOF MENU-->
+    <div class="container-fluid">
+        <!-- BANNER IMAGE-->
+        <div class="row">
+            <div class="col-12 px-0">
+                <img src="images/banner_aboutUs.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid blue-background">
+        <div class="row">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-6">
+                        <div class="banner-header">
+                            <div>Our Services</div>
+                            <div class="text-border"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 align-self-center d-flex justify-content-end">
+                        <div class="banner-text">
+                            Other Services
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav id="tabs-nav" class="navbar grey-bar">
+        <div class="container">
+            <ul class="nav nav-pills">
+                <li class="nav-item col-2 px-0">
+                    <a class="nav-link" href="#odoo">Odoo</a>
+                    <div class="active-border"></div>
+                </li>
+                <li class="nav-item col-2 px-0">
+                    <a class="nav-link" href="#syncthing">Syncthing</a>
+                    <div class="active-border"></div>
+                </li>
+                <li class="nav-item col-2 px-0">
+                    <a class="nav-link" href="#openproject">Open Project</a>
+                    <div class="active-border"></div>
+                </li>
+                <li class="nav-item col-2 px-0">
+                    <a class="nav-link" href="#gitlab">Gitlab</a>
+                    <div class="active-border"></div>
+                </li>
+                <li class="nav-item col-2 px-0">
+                    <a class="nav-link" href="#nextcloud">NextCloud</a>
+                    <div class="active-border"></div>
+                </li>
+                <li class="nav-item col-2 px-0">
+                    <a class="nav-link" href="#lxc">LXC/LXD</a>
+                    <div class="active-border"></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="content">
+        <div class="container manage-services">
+            <div class="row pt-5">
+                <div class="col-7 pt-5">
+                    <p>We offer the best open source softwares with custom made solutions that support businesses' healthy growth.</p>
+                    <p>Our team is qualified to install and maintain the following
+                        <b>softwares:</b>
+                    </p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <ol>
+                                        <li>Odoo - Odoo Community, Enterprise and Odoo.sh</li>
+                                        <li>Syncthing</li>
+                                        <li>Nextcloud</li>
+                                    </ol>
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li>OpenProject</li>
+                                        <li>Gitlab</li>
+                                        <li>LXD/LXC</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-5 pt-5 text-right ">
+                    <h3 class="blue-font font-weight-bold">Off the shelf may not suit your business. Get your own solutions</h3>
+                    <button class="services-button">Build your own toolbox </button>
+                </div>
+            </div>
+            <div class="row py-5" id="odoo">
+                <div class="col-5 pt-5 text-left">
+                    <h3 class="blue-font font-weight-bold">We offer the market's best solutions in:</h3>
+                    <button class="services-button">Want to try?</button>
+                </div>
+                <div class="col-7 pt-5">
+                    <div class="icon icon-other-services">
+                    </div>
+                    <span class="title">
+                        Odoo
+                    </span>
+                    <p class="pt-3">PromptEquation specialises in Odoo maintenance and backup. We can support your self-hosted instance (Enterprise
+                        and Community versions).</p>
+                    <p>Our team is qualified to install and maintain the following
+                    </p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <ol>
+                                        <li>Sales</li>
+                                        <li>Accounting</li>
+                                        <li>Manufacturing</li>
+                                    </ol>
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li>E-Commerce</li>
+                                        <li>And a lot more</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="text-center">
+                        Visit our Odoo website and get a free assessment.
+                    </p>
+                    <p class="text-center font-weight-600">
+                        <u>www.odoogap.com</u>
+                    </p>
+                </div>
+            </div>
+            <div class="row" id="syncthing">
+                <div class="col-7 pt-5">
+                    <div class="icon icon-linux">
+                    </div>
+                    <span class="title">
+                        Syncthing
+                    </span>
+                    <p class="pt-3">Synchronizes your files. Syncthing exchanges data with other machines when they are online at the same
+                        time. Your information is not uploaded to the cloud. When you delete or change a file, the action
+                        duplicates in all the other devices.
+                    </p>
+                </div>
+                <div class="col-5 pt-5 mt-5 text-right">
+                    <button class="services-button mt-5">Synchronize your files</button>
+                </div>
+            </div>
+            <div class="row" id="openproject">
+                <div class="col-5 pt-5 text-left">
+                    <h3 class="blue-font font-weight-bold">OpenProject provides both Kanban and Scrum methodologies to streamline product development.
+                    </h3>
+                    <button class="services-button">Start your Project</button>
+                </div>
+                <div class="col-7 pt-5">
+                    <div class="icon icon-other-services">
+                    </div>
+                    <span class="title">
+                        Open Project
+                    </span>
+                    <p class="pt-3">Open Project is a project management software, leading in the open source segment</p>
+                    <ol>
+                        <li>Manage your projects from creation to conclusion.</li>
+                        <li>Detailed planning, effective collaboration and task managing.</li>
+                        <li>Easy communication between team members and visualisation with Gantt charts.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row" id="gitlab">
+                <div class="col-7 pt-5">
+                    <div class="icon icon-other-services">
+                    </div>
+                    <span class="title">
+                        Gitlab
+                    </span>
+                    <p class="pt-3">
+                        You can manage the complete DevOps life-cycle with Gitlab.
+                    </p>
+                    <p>
+                        Automate your software development lifecycle in full.
+                    </p>
+                    <p>
+                        There's no need to integrate other tools.
+                    </p>
+                </div>
+                <div class="col-5 pt-5 text-right">
+                    <h3 class="blue-font font-weight-bold">
+                        Gitlab is trusted by organizations such as NASA, Comcast, Sony and Bayer.
+                    </h3>
+                    <button class="services-button">Start developing</button>
+                </div>
+            </div>
+            <div class="row" id="nextcloud">
+                <div class="col-5 pt-5 text-left">
+                    <h3 class="blue-font font-weight-bold">
+                        Nextcloud is an Enterprise File Sync and Share to control data.
+                    </h3>
+                    <button class="services-button">Share your files</button>
+                </div>
+                <div class="col-7 pt-5">
+                    <div class="icon icon-other-services">
+                    </div>
+                    <span class="title">
+                        NextCloud
+                    </span>
+                    <ol>
+                        <li>Access multiple file types (documents,images, etc)</li>
+                        <li>Employees can share files with partners and costumers</li>
+                        <li>Improve collaboration</li>
+                        <li>Have a hybrid or cloud solution for your IT team to control</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row" id="lxc">
+                <div class="col-7 pt-5">
+                    <div class="icon icon-other-services">
+                    </div>
+                    <span class="title">
+                        LXC/LXD
+                    </span>
+                    <p>
+                        LXC/LXD is a Linux container.
+                    </p>
+                    <ol>
+                        <li>Run apps for long periods of time</li>
+                        <li>Virtualise entire operatin systems</li>
+                        <li>Get snapshots of running containers</li>
+                        <li>Make live container migrations</li>
+                    </ol>
+                </div>
+                <div class="col-5 pt-5 text-right">
+                    <h3 class="blue-font font-weight-bold">
+                        You control a virtual environment and increase applications portability.
+                    </h3>
+                    <button class="services-button">Get LXC/LXD</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid blue-footer">
+            <div class="row" id="footer">
+                <div class="col-1 mx-auto">
+                    <div class="social-icons">
+                        <span class="icon-social icon-facebook">
+                        </span>
+                        <span class="icon-social icon-linkedin">
+                        </span>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="copyright">@2018 Promptequation Todos os Direitos Reservados</div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script>
+    $(document).ready(function () {
+        $('body').scrollspy({ target: '#tabs-nav' });
+
+        // When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("tabs-nav");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("fixed-top")
+  } else {
+    navbar.classList.remove("fixed-top");
+  }
+}
+    })
+</script>
+
+</html>
