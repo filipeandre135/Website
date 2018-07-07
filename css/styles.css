@@ -11,6 +11,11 @@ h2{font-weight: 800;}
     font-weight: 800;
 }
 
+ h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
 h3#first_title{margin-bottom: 2.1875rem;}
 h5#second_title {
     font-weight: 600;
@@ -509,13 +514,7 @@ button:focus {
     margin-right: 6rem;
 }
 
-#careers-tabs li .active{
-    background-color:#1f1f29;
-    color:white;
-    border:0;
-    font-weight: 900;
-    border-bottom:solid 4px white;
-}
+
 
 #our-culture-content{
     padding-top: 60px;
@@ -529,7 +528,7 @@ button:focus {
 }
 
 #our-culture-content .back-rectangle{
-    border: 7px solid #e7e7e7;
+    border: 0.4375rem solid #e4e4e4;
     height: 5.625rem;
    width: 18.125rem;
     position: absolute;
@@ -539,7 +538,7 @@ button:focus {
 }
 
 #homepage-intro .back-rectangle{
-    border: 7px solid #e7e7e7;
+     border: 0.4375rem solid #e4e4e4;
     height: 8.75rem;
     width: 18.125rem;
     position: absolute;
@@ -735,4 +734,115 @@ span.icon-social.icon-facebook {
     text-align: center;
     padding-top:5px;
     padding-bottom:20px;
+}
+
+/* SERVICES GERAL*/
+
+#services-intro .header {
+      font-size: 30px;
+      padding-top: 70px;
+      padding-bottom: 60px;
+      font-weight: 900;
+    }
+
+    #services-intro .back-rectangle {
+      border: 7px solid #e7e7e7;
+      height: 5.625rem;
+      width: 18.125rem;
+      position: absolute;
+      top: 3rem;
+      left: 41.375rem;
+      z-index: -30;
+    }
+
+    .card-title .icon {
+      color: black;
+      font-size: 4rem;
+    }
+
+    #services-cards .card-body {
+      padding-top: 4rem;
+    }
+
+    #services-cards .card {
+      background-color: #f8f8f8;
+    }
+
+    #services-cards .card-footer {
+      border-top: 0;
+      padding-bottom: 4rem;
+      background-color: #f8f8f8;
+    }
+
+ .blue-font a {
+    font-size: 1.3125rem;
+    cursor: pointer;
+    color: #267ab5;
+}
+
+.blue-font a:hover{text-decoration: none;}
+
+/* OTHER SERVICES */
+    .grey-bar {
+        background-color: #e7e7e7;
+        border-bottom: 2px solid #808082;
+    }
+
+    #tabs-nav {
+        width: 100%;
+    }
+
+    #other-services .icon{
+        color:black;
+        display: inline-block;
+        margin-right:10px;
+    }
+    #other-services .title{
+        font-weight:900;
+    }
+    #other-services .text{
+        font-size:1rem;
+    }
+
+    #tabs-nav ul {
+        width: 100%;
+    }
+
+    #tabs-nav a {
+        font-weight: 600;
+        color: black;
+    padding: .5rem 0;
+    background-color: transparent;
+    }
+
+    #tabs-nav a.active {
+        font-weight: 900;
+        color: black;
+    padding: .5rem 0;
+    background-color: transparent;
+    }
+
+    #tabs-nav a.active ~.active-border {
+        height: 3px;
+        background-color: black;
+        width: 15%;
+
+    }
+
+    .services-button{
+        border:solid 2px #e7e7e7;
+        background-color:white;
+        padding:10px;
+        font-weight: 900;
+        cursor:pointer;
+    }
+
+/* CARRERS */
+   .carrers-button {
+    border: solid 5px #e4e4e4;
+    background-color: white;
+    padding: 0.8rem;
+    font-weight: 900;
+    cursor: pointer;
+}
 }
