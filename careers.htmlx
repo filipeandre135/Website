@@ -1,0 +1,316 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>title</title>
+    <link rel="stylesheet" href="external/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,900" rel="stylesheet">
+    <script src="external/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="external/js/popper.min.js"></script>
+    <script src="external/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- MENU -->
+    <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+
+        <div class="container">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+
+            </button>
+            <a class="text-center navbar-brand" href="index.html">
+                <img src="images/LogoPromptEquation.png" id="logo">
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto mr-0 ">
+                    <li class="text-center nav-item">
+                        <a class="nav-link" href="about-us.html">About Us
+                        </a>
+                    </li>
+                    <li class="text-center nav-item">
+                        <div class="dropdown">
+                            <button onclick="window.location.href='services.html'" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                Services
+                            </button>
+                                              <div class="dropdown-menu">
+                <a class="dropdown-item" href="services-manage.html">Software Solutions for
+                  <br/> Business Management</a>
+                  <hr/>
+                <a class="dropdown-item" href="services-linux.html">Linux Maintenance and
+                  <br/> Upgrade Packages</a>
+                  <hr/>
+                <a class="dropdown-item" href="services-others.html">Other Services</a>
+              </div>
+                        </div>
+                    </li>
+                    <li class="text-center nav-item active">
+                        <a class="nav-link" href="careers.html">Careers</a>
+                    </li>
+                    <div class="text-center right">
+                        <button class="language">PT |</button>
+                        <button class="language2"> EN</button>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+
+    </nav>
+
+    <!-- ENDOF MENU-->
+
+    <div class="container-fluid">
+        <!-- BANNER IMAGE-->
+        <div class="row">
+            <div class="col-12 px-0">
+                <img src="images/carrers.jpg" class="img-fluid"  id="banner_one" alt="Responsive image">
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid blue-background">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="nav nav-tabs" id="careers-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="join-us-tab" data-toggle="tab" href="#join-us-content" role="tab" aria-controls="join-us-content"
+                                    aria-selected="true">JOIN US</a>
+                                <div class="border-bottom"></div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="our-culture-tab" data-toggle="tab" href="#our-culture-content" role="tab" aria-controls="our-culture-content"
+                                    aria-selected="false">OUR CULTURE</a>
+                                <div class="border-bottom"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="join-us-content" role="tabpanel" aria-labelledby="join-us-tab">
+            <div class="container">
+                <div class="row" id="open-positions">
+                    <div class="col-12 text-center mx-auto">
+                        <div class="header">
+                            <div class="back-rectangle"></div>
+                            OPEN POSITIONS
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row job-application">
+                                <div class="col-12 col-md-5">
+                                        <div class="label">Position</div>
+                                        <div class="position">SEO Analyst</div>
+                                    </div>
+                                    <div class="col-12 col-md-2">
+                                        <div class="label">Date</div>
+                                        <div class="text">23-09-2018</div>
+                                    </div>
+                                    <div class="col-12 col-md-2">
+                                        <div class="label">Location</div>
+                                        <div class="text">Viseu</div>
+                                    </div>
+                                    <div class="col-12 col-md-3 text-right align-self-center">
+                                        <div class="btn btn-apply" data-toggle="collapse" href="#application1">Apply
+                                            <span class="icon icon-down"></span>
+                                        </div>
+                
+                                    </div>
+                                    
+                    <div class="col-12">
+                            <div class="collapse" id="application1">
+                                <div class="application-content">
+                                    <div class="main-title">
+                                        JOB DESCRIPTION
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper id sem in malesuada.
+                                    </p>
+                                    <p>
+                                        Proin id dictum odio, venenatis hendrerit libero. Maecenas id lacinia justo, id dignissim sem.
+                                    </p>
+                                    <p>
+                                        In et quam urna. Nam auctor quis nunc non volutpat. Vivamus sit amet accumsan augue, eget feugiat eros.
+                                    </p>
+                                    <div class="title">
+                                        You also be required to:
+                                    </div>
+                                    <ol class="job-requirements">
+                                        <li>
+                                            <span>Degree in Computer Engineering or similar;</span>
+                                        </li>
+                                        <li>
+                                            <span>Self learning capacity;</span>
+                                        </li>
+                                        <li>
+                                            <span>Organization skills, autonomy and teamwork;</span>
+                                        </li>
+                                        <li>
+                                            <span>Responsibility, pro-activity and dynamic performance;</span>
+                                        </li>
+                                    </ol>
+                                    <div class="title">
+                                        What we offer:
+                                    </div>
+                                    <p>
+                                        Opportuniy to work in a challenging environment with dynamic teams and innovative projects;
+                                    </p>
+                                    <p>
+                                        Integration in a solid company;
+                                    </p>
+                                    <a target="_blank" href="mailto:email@email.com?subject=Candidatura&body=BLABLA">
+                                    <button class="attach-cv-button float-right">
+                                        Send your cv
+                                    </button>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                            
+                    </div>
+                    
+                </div>
+
+
+                <div class="row pt-5">
+                    <div class="col-12 pt-5 text-center mx-auto">
+                        <div class="header">
+                            <div class="back-rectangle rectangle-spontaneous"></div>
+                            SPONTANEOUS APPLICATION
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h3 class="blue-font">
+                            Still want to join us but can't find an opening that suits you?
+                            </h1>
+                            <p>
+                                Send your CV and details to: geral@promptequation.com
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="our-culture-content" role="tabpanel" aria-labelledby="our-culture-tab">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mx-auto">
+                        <div class="header">
+                            <div class="back-rectangle"></div>
+                            OUR CULTURE
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p>The Open-source movement is our inspiration. More than software, it's an economic and social revolution.
+                            A collaborative spirit and a sense of community are the reasons behind business relationships.
+                        </p>
+                        <p>By opening the ownership of code, we share out effort and knowledge. New ideas and methods make us
+                            better developers everyday.</p>
+                        <p>
+                            Most of us are developers. We are comfortable and happy using Linux and command-line tools. the curious nature and know-how
+                            helps improve our products and customisations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mx-auto">
+                        <div class="header">
+                            <div class="back-rectangle"></div>
+                            WORKPLACE
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p>Our job opportunities are not limited by geographical constraints. Our developers can work from the
+                            comfort of their home.</p>
+                        <p>Sometimes because they live in other country. Other times because they need time to be with their
+                            family.
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 py-5 text-center">
+                        <h3 class="blue-font font-weight-bold">
+                            Join our team?
+                        </h3>
+
+                        <button class="carrers-button">
+                            View all Positions
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid blue-footer">
+            <div class="row" id="footer">
+                <div class="col-3 text-center mx-auto">
+                    <div class="social-icons mx-auto">
+                        <a href="https://www.facebook.com/PromptEquation-1985540494819252/?modal=admin_todo_tour" target="_blank">
+                            <span class="icon-social icon-facebook">
+                            </span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/odoogap/" target="_blank">
+                            <span class="icon-social icon-linkedin">
+                            </span>
+                        </a>
+                        <a href="https://twitter.com/PromptEQUATION" target="_blank">
+                            <span class="icon-social icon-twitter">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="copyright">@2018 Promptequation Todos os Direitos Reservados</div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function () {
+            $(".btn-apply").click(function () {
+                var span = $(this).find('.icon');
+                span.toggleClass("icon-down");
+                span.toggleClass("icon-up");
+            })
+
+            $('.carrers-button').click(function(){
+                $('#join-us-tab').click();
+                $(window).scrollTop($('#open-positions').position().top + 450);
+            })
+        });
+    </script>
+</body>
+
+</html>

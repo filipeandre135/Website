@@ -1,0 +1,376 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>title</title>
+  <link rel="stylesheet" href="external/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,900" rel="stylesheet">
+  <script src="external/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="external/js/popper.min.js"></script>
+  <script src="external/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- MENU -->
+  <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+
+      </button>
+      <a class="text-center navbar-brand" href="index.html">
+        <img src="images/LogoPromptEquation.png" id="logo">
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto mr-0 ">
+          <li class="text-center nav-item">
+            <a class="nav-link" href="about-us.html">About Us
+            </a>
+          </li>
+          <li class="text-center nav-item">
+            <div class="dropdown">
+              <button onclick="window.location.href='services.html'" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                Services
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="services-manage.html">Software Solutions for
+                  <br/> Business Management</a>
+                  <hr/>
+                <a class="dropdown-item" href="services-linux.html">Linux Maintenance and
+                  <br/> Upgrade Packages</a>
+                  <hr/>
+                <a class="dropdown-item" href="services-others.html">Other Services</a>
+              </div>
+            </div>
+          </li>
+          <li class="text-center nav-item">
+            <a class="nav-link" href="careers.html">Careers</a>
+          </li>
+          <div class="text-center right">
+            <button class="language">PT |</button>
+            <button class="language2"> EN</button>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+
+  </nav>
+
+  <!-- ENDOF MENU-->
+
+  <div class="container-fluid">
+    <!-- BANNER IMAGE-->
+    <div class="row">
+
+      <div class="col-12 px-0">
+        <img src="images/banner.jpg" class="img-fluid" id="banner_one" alt="Responsive image">
+      </div>
+    </div>
+  </div>
+  <!-- END OF BANNER IMAGE-->
+
+  <!-- HOMEPAGE INTRO-->
+  <div class="container">
+    <div class="row">
+      <div class="col-12" id="homepage-intro">
+        <div class="back-rectangle"></div>
+        <h1 id="first">Let your software everyday issues become a thing of the past.</h1>
+        <div class="text">
+          <div style="padding-bottom:15px">A software that can simplify processes and provide helpful insights. Helps with decision making and answers to
+            your problems.</div>
+
+          <div style="padding-bottom:15px ">It seems impossible. Something far, far away from your budget limit.</div>
+
+          <div>PromptEquation can help without blowing up your budget. We provide custom solutions for your unique needs.</div>
+
+          <div class="text-border"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END OF HOMEPAGE INTRO-->
+  <!-- OUR SERVICES -->
+  <div class="container-fluid blue-background">
+    <div class="row">
+      <div class="container">
+        <div class="row" id="our-services">
+          <div class="col-12 col-md-12 col-lg-3">
+            <div class="header">
+              <div class="blue-font">OUR</div>
+              <div class="white-font">SERVICES</div>
+              <div class="back-rectangle"></div>
+            </div>
+            <div class="text grey-font">
+              <p>
+                Open software is trendy. Be hip and go with the flow. Open source’s popularity is growing. We have a variety of open solutions
+                to install and integrate with your existing systems.
+              </p>
+            </div>
+            <div class="text-border"></div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-3">
+            <a href="services-manage.html">
+              <div class="square">
+
+                <div class="square-content">
+
+                  <span class="icon icon-software">
+                  </span>
+                  <div class="first-text">
+
+                    Software Solutions
+                  </div>
+                  <div>for</div>
+                  <div>Business Management</div>
+                </div>
+
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-12 col-lg-3">
+            <a href="services-linux.html">
+            <div class="square">
+              <div class="square-content">
+                <span class="icon icon-linux">
+                </span>
+                <div class="first-text">
+                  Linux Maintenance
+                </div>
+                <div>and</div>
+                <div>Upgrade Packages</div>
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-12 col-md-12 col-lg-3">
+            <a href="services-others.html">
+            <div class="square">
+              <div class="square-content">
+                <span class="icon icon-other-services">
+                </span>
+                <div class="first-text">
+                  Other
+                </div>
+                <div>Services</div>
+              </div>
+            </div>
+            
+          </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- END OF OUR SERVICES-->
+  <!-- SECOND IMAGE BANNER-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 px-0">
+        <img src="images/middle.jpg" class="img-fluid" alt="Responsive image">
+      </div>
+    </div>
+
+  </div>
+  <!-- END OF SECOND IMAGE BANNER-->
+  <!-- TESTIMONIALS-->
+
+  <div class="container">
+    <div class="row" id="testimonials">
+      <div class="col-12 col-lg-6">
+        <div class="header">
+          TESTIMONIALS
+          <div class="back-rectangle"></div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="quotes-open">“</div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="text">
+                <div>
+                  With OdooGap. Supercomm found a real business partner. Very quickly, they took our requirements into account. Understanding
+                  our needs they established a list of priorities. Within a couple of weeks, OdooGap elaborated a model with
+                  our first requirements: CRM, contract and in-voicing.~
+                </div>
+                <div>No time wasted.</div>
+                <div style="padding-top:20px">Once the model had been checked by out IT, we received a video showing our guys how to proceed with the new
+                  software, so that we could start with Odoo.
+                </div>
+                <div style="padding-top:20px">
+                  They know Odoo very well. They always find a solution to our demands. They build the new solution step by step, so that there
+                  is no gap between our dreams and what we get. The team is very efficient and responsive. We are happy to
+                  recommend OdooGap without any restrictions.
+                </div>
+                <div class="quotes-close1">”</div>
+              </div>
+              <div class="testemonial-person">
+                <div class="name">
+                  Raymond Gassmann
+                </div>
+                <div class="company">
+                  CEO of Spercomm
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="text">
+                <div>
+                  Kazuba had been using Odoo for a year or so without fully experiencing the benefits of the system. Although CRM and invoicing
+                  were in place, they were not dovetailing with production as expected.
+                </div>
+                <div style="padding-top:20px">
+                  OdooGap helped us upgrade our installation, focusing on our core needs, dramatically improving our user experience. During
+                  the upgrade process OdooGap were helpful, responsive and always available even for the most trivial of
+                  issues. I would recommend them without hesitation.
+                </div>
+                <div class="quotes-close2">”</div>
+              </div>
+              <div class="testemonial-person">
+                <div class="name">
+                  Nick Davies
+                </div>
+                <div class="company">
+                  CEO of Kazuba
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="text">
+                <div>
+                  OdooGap has helped Hamofa in getting confidence that you are not bound to just one company who delivers and modifies Odoo
+                  according to the needs.
+                </div>
+                <div style="padding-top:20px">
+                  They work coordinated and act quickly and correct the requested problem or modification needed.
+                </div>
+                <div style="padding-top:20px">
+                  The team clearly explained the possible solutions for each problem using online meetings with screen sharing if necessary.
+                </div>
+                <div style="padding-top:20px">
+                  Nobody knows a modified Odoo system better than the programmer who has made the Odoo installation and modifications, but
+                  in our case OdooGap has proved well that they can jump in and deliver.
+                </div>
+                <div class="quotes-close3">”</div>
+              </div>
+              <div class="testemonial-person">
+                <div class="name">
+                  Tom Sutens
+                </div>
+                <div class="company">
+                  IT Manager of Hamofa
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END OF TESTIMONIALS-->
+  <!-- GET IN TOUCH-->
+  <div class="container-fluid contacts-background">
+    <div class="row">
+      <div class="container">
+        <div class="row" id="contacts">
+          <div class="col-11 col-lg-5 ">
+            <div class="header">
+              <div class="blue-font">GET IN</div>
+              <div class="white-font">TOUCH</div>
+              <div class="back-rectangle"></div>
+            </div>
+               <a href="careers.html"> 
+            <button class= "join-us-button">
+              Join Us
+            </button>
+                   </a>
+            <div class="col-12 col-lg-6 text">
+              <div class="label">
+                Address
+              </div>
+              <div>
+                International House, 12 Constance Street, London E16 2DQ
+              </div>
+              <div>United Kingdom</div>
+              <div class="label">Number</div>
+              <div>+44 7480 538242</div>
+              <div class="map-link">
+                <a target="_blank" href="https://goo.gl/maps/TtYxT5eb3W12">
+                  VER MAPA
+                </a>
+              </div>
+              <div>
+                108 Rua Dr. Luis Ferreira
+              </div>
+              <div>Viseu</div>
+              <div>Portugal</div>
+              <div class="map-link">
+                <a target="_blank" href="https://www.google.pt/maps/place/R.+Dr.+Lu%C3%ADz+Ferreira+108,+3500-110+Viseu/@40.6587323,-7.9120956,21z/data=!4m5!3m4!1s0xd23364dbe7b873f:0xdd0502f8c1d8f22e!8m2!3d40.6587285!4d-7.911936">
+                  VER MAPA
+                </a>
+              </div>
+              <div class="label">Number</div>
+              <div>+351 232 096 215</div>
+              <div class="label">Affiliates/partners</div>
+              <div>Odoogap</div>
+            </div>
+          </div>
+          <div class="col-11 col-lg-7 px-0">
+            <form class="input-form">
+              <input type="text" class="input" placeholder="Name" />
+              <input type="email" class="input" placeholder="Email" />
+              <input type="text" class="input" placeholder="Subject" />
+              <textarea class="input" rows="6" placeholder="Message"></textarea>
+              <button class="send-button">
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END OF GET IN TOUCH-->
+    <!-- FOOTER -->
+    <div class="row">
+      <div class="col-3 text-center mx-auto">
+        <div class="social-icons mx-auto">
+          <a href="https://www.facebook.com/PromptEquation-1985540494819252/?modal=admin_todo_tour" target="_blank">
+            <span class="icon-social icon-facebook">
+            </span>
+          </a>
+          <a href="https://www.linkedin.com/company/odoogap/" target="_blank">
+            <span class="icon-social icon-linkedin">
+            </span>
+          </a>
+           <a href="https://twitter.com/PromptEQUATION" target="_blank">
+              <span class="icon-social icon-twitter">
+              </span>
+            </a>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="copyright">@2018 Promptequation Todos os Direitos Reservados</div>
+      </div>
+    </div>
+    <!-- END OF FOOTER-->
+
+  </div>
+
+</body>
+
+</html>

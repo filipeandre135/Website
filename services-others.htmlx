@@ -1,0 +1,387 @@
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>title</title>
+    <link rel="stylesheet" href="external/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,900" rel="stylesheet">
+    <script src="external/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="external/js/popper.min.js"></script>
+    <script src="external/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+    <!-- MENU -->
+    <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+
+        <div class="container">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+
+            </button>
+            <a class="text-center navbar-brand" href="index.html">
+                <img src="images/LogoPromptEquation.png" id="logo">
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto mr-0 ">
+                    <li class="text-center nav-item">
+                        <a class="nav-link" href="about-us.html">About Us
+                        </a>
+                    </li>
+                    <li class="text-center nav-item active">
+                        <div class="dropdown">
+                            <button onclick="window.location.href='services.html'" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                Services
+                            </button>
+                                 <div class="dropdown-menu">
+                <a class="dropdown-item" href="services-manage.html">Software Solutions for
+                  <br/> Business Management</a>
+                  <hr/>
+                <a class="dropdown-item" href="services-linux.html">Linux Maintenance and
+                  <br/> Upgrade Packages</a>
+                  <hr/>
+                <a class="dropdown-item" href="services-others.html">Other Services</a>
+              </div>
+                        </div>
+                    </li>
+                    <li class="text-center nav-item">
+                        <a class="nav-link" href="careers.html">Careers</a>
+                    </li>
+                    <div class="text-center right">
+                        <button class="language">PT |</button>
+                        <button class="language2"> EN</button>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+
+    </nav>
+
+    <!-- ENDOF MENU-->
+
+    <div class="container-fluid">
+        <!-- BANNER IMAGE-->
+        <div class="row">
+            <div class="col-12 px-0">
+                <img src="images/services.jpg" class="img-fluid"  id="banner_one"  alt="Responsive image">
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid blue-background">
+        <div class="row">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-9">
+                        <div class="banner-header">
+                            <div>Our Services</div>
+                            <div class="text-border"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 align-self-center justify-content-lg-end">
+                        <div class="banner-text">
+                            Other Services
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav id="tabs-nav" class="navbar grey-bar tabs-others">
+        <div class="container">
+            <ul class="nav nav-pills align-tabs">
+                <li class="nav-item">
+                    <a class="nav-link" href="#systems">Integrated eCommerce systems
+                    </a>
+                    <div class="active-border"></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#website">Website Development
+                    </a>
+                    <div class="active-border"></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#seo">SEO
+                    </a>
+                    <div class="active-border"></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#itproject">IT Project
+                    </a>
+                    <div class="active-border"></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cloud">Cloud Infrastructure</a>
+                    <div class="active-border"></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 py-5 text-center">
+                <h3 class="blue-font font-weight-bold">
+                    Complete services and solutions that will improve the way you manage your business
+                </h3>
+                <p class="font-weight-600 pt-5">
+                    We offer additional services to optimize your business processes.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="other-services">
+        <div id="systems">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 px-0">
+                        <div class="wrapper-parent text-right">
+                            <div class="background-words-lxc">
+                                ECOMMERCE
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6 mr-auto">
+                        <div class="icon icon-e-commerce">
+                        </div>
+                        <span class="title">
+                            Integrated eCommerce systems
+                        </span>
+                        <p class="pt-3 text">
+                            Solutions to increase your revenue potential. Reduce operating cost with an efficient workflow.
+                        </p>
+                        <button class="services-button">
+                            Integrate my systems
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="website">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 pt-5 px-0">
+                        <div class="wrapper-parent text-left">
+                            <div class="background-words-website">
+                                WEBSITE
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row" id="website">
+                    <div class="col-12 col-md-6 col-lg-6 offset-md-6">
+                        <div class="icon icon-website">
+                        </div>
+                        <span class="title">
+                            Website Development
+                        </span>
+                        <p class="text">
+                            You can have a beautiful and user-friendly website.
+                        </p>
+                        <p class="text">
+                            With a custom design, your site will be one of a kind. Present your brand as you want it.
+                        </p>
+                        <p class="text">
+                            Have a professional website that fits your style.
+                        </p>
+                        <button class="services-button">
+                            Build your Website
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="seo">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 px-0">
+                        <div class="wrapper-parent text-left">
+                            <div class="background-words-seo">
+                                SEO
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6 mr-auto">
+                        <div class="icon icon-seo">
+                        </div>
+                        <div class="title">
+                            Search Engine Optimisation (SEO) helps your company's visibility in search engines
+                        </div>
+                        <p class="pt-3 text">
+                            Search Engine Optimisation (SEO) helps your company's visibility in search engines.
+                        </p>
+                        <p>
+                            Get on the first page of search results.
+                        </p>
+                        <button class="services-button">
+                            Get in the first page
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="itproject">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 px-0">
+                        <div class="wrapper-parent text-right">
+                            <div class="background-words-lxc">
+                                IT PROJECT
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="icon icon-itProject">
+                        </div>
+                        <div class="title">
+                            IT Project Management
+                        </div>
+                        <p class="pt-3 text">
+                            Our team is capable of managing your IT projects. Take a look at our process:
+                        </p>
+                        <div class="subtitle">
+                            Feasibility Validation
+                        </div>
+                        <div class="subtitle-border"></div>
+                        <div class="subtitle-text">
+                            We'll verify the technical feasibility of your product or business. Clarify the necessary steps to launch and test an early
+                            version.
+                        </div>
+                        <div class="subtitle">
+                            Project Management
+                        </div>
+                        <div class="subtitle-border"></div>
+                        <div class="subtitle-text">
+                            We take complete control of the ongoing roadmap. Provide regular check-ins, updates and work with developers.
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 align-it-project">
+                        <div class="subtitle">
+                            Selecting the Technology Stack
+                        </div>
+                        <div class="subtitle-border"></div>
+                        <div class="subtitle-text">
+                            We'll determine the best development framework. A database engine and hosting environment for the initial product.
+                        </div>
+                        <div class="subtitle">
+                            Project Rescue
+                        </div>
+                        <div class="subtitle-border"></div>
+                        <div class="subtitle-text">
+                            If the product development is at risk, we can help turn it around. We train the team to prevent future recurrences and provide
+                            a full debrief and root cause analysis.
+                        </div>
+
+                        <button class="services-button">
+                            Manage my IT Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cloud">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 px-0">
+                        <div class="wrapper-parent text-left">
+                            <div class="background-words-cloud">
+                                CLOUD
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6 mr-auto">
+                        <div class="icon icon-cloud">
+                        </div>
+                        <div class="title">
+                            Cloud Infrastructure Management
+                        </div>
+                        <p class="pt-3 text">
+                            We provide hybrid cloud solutions and Cloud migrations. Leave the planning and execution to us.
+                        </p>
+                        <button class="services-button">
+                            Get a Cloud System
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid blue-footer">
+            <div class="row" id="footer">
+                <div class="col-3 text-center mx-auto">
+                    <div class="social-icons mx-auto">
+                        <a href="https://www.facebook.com/PromptEquation-1985540494819252/?modal=admin_todo_tour" target="_blank">
+                            <span class="icon-social icon-facebook">
+                            </span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/odoogap/" target="_blank">
+                            <span class="icon-social icon-linkedin">
+                            </span>
+                        </a>
+                        <a href="https://twitter.com/PromptEQUATION" target="_blank">
+                            <span class="icon-social icon-twitter">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="copyright">@2018 Promptequation Todos os Direitos Reservados</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            $('body').scrollspy({ target: '#tabs-nav' });
+
+            // When the user scrolls the page, execute myFunction 
+            window.onscroll = function () { myFunction() };
+
+            // Get the navbar
+            var navbar = document.getElementById("tabs-nav");
+
+            // Get the offset position of the navbar
+            var sticky = navbar.offsetTop;
+
+            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("fixed-top")
+                } else {
+                    navbar.classList.remove("fixed-top");
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

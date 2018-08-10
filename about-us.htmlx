@@ -1,7 +1,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 ">
     <title>title</title>
     <link rel="stylesheet" href="external/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -13,39 +14,55 @@
 </head>
 
 <body>
-
     <!-- MENU -->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light navbar-fixed-top bg-light">
+    <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+
         <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/logo.svg">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="text-center navbar-brand" href="index.html">
+                <img src="images/LogoPromptEquation.png" id="logo">
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto mr-0 ">
-                    <li class="nav-item">
+                    <li class="text-center nav-item active">
                         <a class="nav-link" href="about-us.html">About Us
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
+                    <li class="text-center nav-item">
+                        <div class="dropdown">
+                            <button onclick="window.location.href='services.html'" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                Services
+                            </button>
+                            <div class="dropdown-menu">
+                <a class="dropdown-item" href="services-manage.html">Software Solutions for
+                  <br/> Business Management</a>
+                  <hr/>
+                <a class="dropdown-item" href="services-linux.html">Linux Maintenance and
+                  <br/> Upgrade Packages</a>
+                  <hr/>
+                <a class="dropdown-item" href="services-others.html">Other Services</a>
+              </div>
+                        </div>
                     </li>
-
-                    <li class="nav-item">
+                    <li class="text-center nav-item">
                         <a class="nav-link" href="careers.html">Careers</a>
                     </li>
-
-                    <div class="right">
+                    <div class="text-center right">
                         <button class="language">PT |</button>
                         <button class="language2"> EN</button>
                     </div>
-
                 </ul>
             </div>
         </div>
+
+
     </nav>
 
     <!-- ENDOF MENU-->
@@ -55,39 +72,47 @@
         <!-- BANNER IMAGE-->
         <div class="row">
             <div class="col-12 px-0">
-                <img src="images/banner_aboutUs.png" class="img-fluid" alt="Responsive image">
+                <img src="images/banner_aboutUs.jpg" id="banner_one" class="img-fluid" alt="Responsive image">
             </div>
         </div>
 
     </div>
-    <div class="container-fluid blue-background">
+    <div class="container-fluid blue-background" id="banner_blue">
         <div class="row">
             <div class="container">
                 <div class="row ">
-                    <div class="col-7 col-lg-6">
+
+                    <div class="col-12 col-md-7 col-lg-7">
+
                         <div class="banner-header">
                             <div>Company</div>
                             <div>Our Strategy</div>
                             <div class="text-border"></div>
                         </div>
                     </div>
-                    <div class="col-5 col-lg-6 align-self-center">
+
+
+                    <div class="col-12 col-md-5 align-self-center justify-content-md-end justify-content-lg-end">
+                        <div class="banner-text">
+
                         <h2 id="first_message">
                             When programming becomes serious, a new business is born
                         </h2>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
+               </div>
+    </div>
+         </div>
     <!-- END OF BANNER IMAGE-->
 
     <!-- ABOUT US -->
     <div class="container">
         <div id="about-us" class="row">
-            <div class="col-12">
-                <div class="header">
-                    <div class="back-rectangle"></div>
+            <div class="col-12 ">
+                <div class="header text-center ">
+                    <div class="back-rectangle text-center"></div>
                     ABOUT
                     <span class="blue-font">US</span>
                 </div>
@@ -195,22 +220,32 @@
         </div>
 
     </div>
-    <footer>
-        <div class="container-fluid blue-footer">
-            <div class="row mx-auto" id="footer">
-                <div class="col-1 mx-auto">
-                    <div class="social-icons text-center">
-                        <span class="icon-social icon-facebook">
-                        </span>
-                        <span class="icon-social icon-linkedin">
-                        </span>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="copyright">@2018 Promptequation Todos os Direitos Reservados</div>
-                </div>
-
-            </div>
+  <footer>
+    <div class="container-fluid blue-footer">
+      <div class="row" id="footer">
+        <div class="col-3 text-center mx-auto">
+          <div class="social-icons mx-auto">
+            <a href="https://www.facebook.com/PromptEquation-1985540494819252/?modal=admin_todo_tour" target="_blank">
+              <span class="icon-social icon-facebook">
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/company/odoogap/" target="_blank">
+              <span class="icon-social icon-linkedin">
+              </span>
+            </a>
+            <a href="https://twitter.com/PromptEQUATION" target="_blank">
+              <span class="icon-social icon-twitter">
+              </span>
+            </a>
+          </div>
         </div>
-    </footer>
+        <div class="col-12">
+          <div class="copyright">@2018 Promptequation Todos os Direitos Reservados</div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
 </body>
+
+</html>

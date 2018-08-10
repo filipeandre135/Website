@@ -38,10 +38,54 @@
 }
 
 
+.icon-twitter:before {
+  content: "\e914";
+}
+.icon-down:before {
+  content: "\e912";
+}
+.icon-up:before {
+  content: "\e913";
+}
+.icon-check2:before {
+  content: "\e904";
+}
+.icon-cloud_1:before {
+  content: "\e905";
+}
+.icon-cloud:before {
+  content: "\e906";
+}
+.icon-e-commerce:before {
+  content: "\e909";
+}
+.icon-gitlab:before {
+  content: "\e90a";
+}
+.icon-itProject:before {
+  content: "\e90b";
+}
+.icon-lxc:before {
+  content: "\e90c";
+}
+.icon-odoo:before {
+  content: "\e90d";
+}
+.icon-project:before {
+  content: "\e90e";
+}
+.icon-seo:before {
+  content: "\e90f";
+}
+.icon-sycthing:before {
+  content: "\e910";
+}
+.icon-website:before {
+  content: "\e911";
+}
 .icon-check:before {
   content: "\e903";
 }
-
 .icon-facebook:before {
   content: "\e901";
 }
